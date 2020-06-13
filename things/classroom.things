@@ -1,0 +1,16 @@
+
+Bridge mqtt:broker:mosquitto_esther "Mosquitto_Esther" [
+      	host="localhost",
+	    port=1883,
+	    secure=false,
+	    username="",
+	    password="",
+	    clientID="openHAB2"	]
+
+{
+	Thing topic dht22 "Temperature and Humidity" {
+        Channels:
+        Type number : temp "temp" [ stateTopic="dht22/temperature" ]
+        Type number : humi "humi" [ stateTopic="dht22/humidity" ]
+        }
+}
