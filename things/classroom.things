@@ -1,11 +1,11 @@
 
 Bridge mqtt:broker:mosquitto_esther "Mosquitto_Esther" [
-      	host="localhost",
+      	host="mqtt.eclipse.org",
 	    port=1883,
 	    secure=false,
 	    username="",
 	    password="",
-	    clientID="openHAB2"	]
+	    clientID=""	]
 
 {
 	Thing topic dht22 "Temperature and Humidity" {

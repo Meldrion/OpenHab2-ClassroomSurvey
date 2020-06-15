@@ -1,8 +1,0 @@
-sitemap classroom label="Classroom Survey"
-	{
-	Frame label ="Room 42"
-	{
-        Text    item=temp_value          label="Now [%.1f °C]"    icon=temperature
-        Text    item=humi_value          label="Now [%d %%]"      icon=humidity
-	}
-}

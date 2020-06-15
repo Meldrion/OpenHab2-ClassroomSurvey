@@ -1,5 +1,2 @@
-
-   Group station1 "Station 1.0"
-
-   Number   temp_value "Temperature: [%.1f °C]"     <temperature> (station1)    {channel="mqtt:topic:mosquitto_esther:dht22:temp"}
-   Number   humi_value "Humidity: [%d %%]"          <humidity> (station1)       {channel="mqtt:topic:mosquitto_esther:dht22:humi"}
+Number   temp_value "Temperature: [%.1f °C]"     <temperature>     {channel="mqtt:topic:mosquitto_esther:dht22:temp"}
+Number   humi_value "Humidity: [%d %%]"          <humidity>     {channel="mqtt:topic:mosquitto_esther:dht22:humi"}

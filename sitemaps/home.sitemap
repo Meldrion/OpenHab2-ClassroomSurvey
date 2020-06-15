@@ -1,0 +1,11 @@
+sitemap home label="Our Home" {
+    Frame label="Outside" icon="garden" {
+    }
+
+    Frame label="Ground Floor" icon="groundfloor" {
+    }
+
+    Frame label="Third Floor" icon="attic" {
+    }
+
+}
